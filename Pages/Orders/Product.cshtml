@@ -1,0 +1,33 @@
+@page
+@model ProductModel
+<h1 class="mb-3"> Product List</h1>
+<div class=" d-flex justify-content-end mb-3">
+<a href="Create" class="btn btn-success ">Add New Product</a>
+</div>
+<div class="container table-responsive">
+<table class="table table-bordered table-striped text-center table-responsive" >
+<thead class="table-dark">
+<tr>
+<th>id</th>
+<th>CustomerName</th>
+<th>ProductName</th>
+<th>Quantity</th>
+<th>Price</th>
+<th>OrderDate</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var Order in Model.Orders){
+<tr>
+<td>@Order.Id</td>
+<td>@Order.CustomerName</td>
+<td>@Order.ProductName</td>
+<td>@Order.Quantity</td>
+<td>@Order.Price</td>
+<td>@Order.OrderDate</td>
+<td><a asp-page="Edit"asp-route-id="@Order.Id" class="btn btn-primary btn-sm">Edit</a>
+<a asp-page="Delete"asp-route-id="@Order.Id" class="btn btn-danger btn-sm">Delete</a>
+</td> </tr>}
+</tbody></table>
+</div>
