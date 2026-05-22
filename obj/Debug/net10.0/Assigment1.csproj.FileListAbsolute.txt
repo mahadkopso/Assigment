@@ -218,3 +218,4 @@ C:\Users\mahah\OneDrive\Desktop\CRUDASSIGMENT\Assigment1\obj\Debug\net10.0\refin
 C:\Users\mahah\OneDrive\Desktop\CRUDASSIGMENT\Assigment1\obj\Debug\net10.0\Assigment1.pdb
 C:\Users\mahah\OneDrive\Desktop\CRUDASSIGMENT\Assigment1\obj\Debug\net10.0\Assigment1.genruntimeconfig.cache
 C:\Users\mahah\OneDrive\Desktop\CRUDASSIGMENT\Assigment1\obj\Debug\net10.0\ref\Assigment1.dll
+C:\Users\mahah\OneDrive\Desktop\CRUDASSIGMENT\Assigment1\obj\Debug\net10.0\Assigment1.sourcelink.json
